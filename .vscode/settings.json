@@ -1,0 +1,9 @@
+{
+    "notebook.breadcrumbs.showCodeCells": true,
+    "breadcrumbs.enabled": true,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.autoIndent": "none",
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.renderWhitespace": "none"
+}
