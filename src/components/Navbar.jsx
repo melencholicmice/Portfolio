@@ -16,7 +16,7 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#080708] text-gray-300">
+		<div className="sticky w-full h-[80px] flex justify-between items-center px-4 bg-[#080708] text-gray-300">
 			<div className="text-[#fb3232] font-bold text-2xl">
 				{"< "}Heet <span className="text-[#F0A202]"> Dhorajiya {" />"}</span>
 			</div>

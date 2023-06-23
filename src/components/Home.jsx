@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div
 			name="home"
-			className="w-full h-screen bg-[#080708] flex justify-center content-center py-16"
+			className="w-full  bg-[#080708] flex justify-center content-center py-16"
 		>
 			{/* Container */}
 			<div className="flex py-16">
