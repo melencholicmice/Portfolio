@@ -10,11 +10,11 @@ const Home = () => {
 	return (
 		<div
 			name="home"
-			className="w-full  bg-[#080708] flex justify-center content-center py-16"
+			className="w-full  bg-[#080708] flex justify-center content-center py-8"
 		>
 			{/* Container */}
-			<div className="flex py-16">
-				<div className="max-w-[1000px] mx-auto px-16 flex flex-col justify-center h-full  w-4/6">
+			<div className="flex justify-center content-center">
+				<div className="max-w-[800px] mx-auto px-16 flex flex-col justify-center h-full  w-4/6 smv:mx-0 w-full">
 					<p className="text-[#F0A202] text-4xl">
 						<span className="text-[#ff3b3b] text-4x1">Hello,</span> I'm
 					</p>
@@ -32,11 +32,10 @@ const Home = () => {
 					</h2>
 					<p className="text-[#FFF3F0] py-4 max-w-[700px]">
 						I'm a undergraduate student at{" "}
-						<span className="text-[#fb3b3b]">IIT Patna. </span>I'm highly
-						intrested in{" "}
+						<span className="text-[#fb3b3b]">IIT Patna. </span>I'm extremely keen in{" "}
 						<span className="text-[#F0A202]">problem solving </span>
 						and participating in challenges and{" "}
-						<span className="text-[#F0A202]">hackthrons.</span>I enjoy learning
+						<span className="text-[#F0A202]">hackathons.</span>I enjoy learning
 						new technologies and challenges. Currently I am proficient in{" "}
 						<span className="text-[#fb3b3b]"> Full stack web development</span>{" "}
 						and I can build complex web application and can host and scale them.

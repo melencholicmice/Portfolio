@@ -19,12 +19,12 @@ const Work = () => {
 					<p className="py-6">Check out some of my recent Projects</p>
 				</div>
 				<div className="flex flex-col md:flex-row justify-between content-between">
-					<div>
+					<div className="py-8 px-8">
 						<div
 							key={1}
 							style={{ backgroundImage: `url(${anwesha})` }}
 							className="shadow-lg shadow-[#040c16] group container rounded-md
-              flex justify-center text-center items-center content-div  w-[400px] h-[300px] py-8 px-8 mx-8"
+              flex justify-center text-center items-center content-div w-[400px] h-[300px] py-8 px-8 mx-8"
 						>
 							{/* Hover effect for images */}
 							<div className="opacity-0 group-hover:opacity-100 ">
@@ -54,7 +54,7 @@ const Work = () => {
 							</div>
 						</div>
 					</div>
-					<div>
+					<div className="py-8 px-8">
 						<div
 							key={2}
 							style={{ backgroundImage: `url(${growsimplee})` }}

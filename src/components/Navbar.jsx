@@ -65,12 +65,6 @@ const Navbar = () => {
 				</li>
 				<li className="py-6 text-4xl">
 					{" "}
-					<Link onClick={handleClick} to="about" smooth={true} duration={500}>
-						About
-					</Link>
-				</li>
-				<li className="py-6 text-4xl">
-					{" "}
 					<Link onClick={handleClick} to="skills" smooth={true} duration={500}>
 						Skills
 					</Link>
@@ -119,7 +113,7 @@ const Navbar = () => {
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
-							href="https://t.ly/resume_sde"
+							href="https://drive.google.com/file/d/1xWZ7o31xU4gLBe37_lyChrgrmI68-rIR/view?usp=drive_link"
 						>
 							Resume <BsFillPersonLinesFill size={30} />
 						</a>
